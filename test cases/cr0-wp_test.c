@@ -1,6 +1,6 @@
-/* This is a sample program to test the working of CR0.WP (Write protected).
+/* This is a sample program to test the working of CR0.WP (Write protected) flag.
  CR0.WP decides if the supervisor mode(kernel) will able to write to RO(Read only)
- structure or not.
+ data or not.
  If CR0.WP = 1 --> kernel can not write to any read only page.
  If CR0.WP = 0 --> kernel can write to a read only page.
 */
